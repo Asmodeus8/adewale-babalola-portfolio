@@ -1,23 +1,36 @@
-# Adewale Babalola Portfolio
+# Adewale Babalola — Portfolio
 
-Personal portfolio for Adewale Babalola, Backend Engineer and Electrical/Electronics Engineer.
+Terminal-inspired personal portfolio for Adewale Babalola, Backend Engineer & Electrical/Electronics Engineer.
 
-## Focus
+## Project set
 
-- Backend engineering and APIs
-- TypeScript, Node.js, Python and PostgreSQL
-- Cloud deployment and storage integrations
-- Raspberry Pi, embedded systems and IoT
-- Electrical/electronics engineering
+This version retains all project entries supplied in the original portfolio package:
 
-## Selected projects
+- Relay
+- Atlas
+- Pulse
+- Quarry
+- Lattice
+- Northstar
+- Kiln
+- Beacon
+- Tandem
+- Ledger
+- Nomad
+- Basalt
+- Static
 
-- 7TH BREED
-- SolarPro Lagos
-- Smart Home Security System
-- Offline-based Login Form
-- Calculator
+The supplied ZIP contains portfolio descriptions for these entries, but it does **not** contain separate source-code folders or source repository URLs for them. For that reason, this repository does not pretend that source repositories were cloned. The project links currently route to the GitHub profile until real source repositories are supplied or implemented.
 
 ## Run locally
 
-Open index.html directly or serve the directory with a static web server.
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
